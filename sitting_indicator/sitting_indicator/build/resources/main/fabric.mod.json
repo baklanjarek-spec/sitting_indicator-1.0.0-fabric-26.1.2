@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sitting_indicator",
+  "version": "1.0.0",
+  "name": "Sitting Indicator",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.sittingindicator.SittingIndicatorMod"
+    ],
+    "client": [
+      "net.mcreator.sittingindicator.SittingIndicatorModClient"
+    ]
+  },
+  "mixins": [
+    "sitting_indicator.mixins.json"
+  ],
+  "accessWidener": "META-INF/sitting_indicator.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
